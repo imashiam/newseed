@@ -228,240 +228,207 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {81444630},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
-An advanced administration bot based on TG-CLI written in Lua
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@Empero [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+    about_text = [[A H D BOT UPDATED VERSION V5 
 ]],
     help_text_realm = [[
 Realm Commands:
-
-!creategroup [Name]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!creategroup [Name]🔶
 Create a group
-
-!createrealm [Name]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!createrealm [Name]🔷
 Create a realm
-
-!setname [Name]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!setname [Name]🔶
 Set realm name
-
-!setabout [group|sgroup] [GroupID] [Text]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!setabout [group|sgroup] [GroupID] [Text]🔷
 Set a group's about text
-
-!setrules [GroupID] [Text]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!setrules [GroupID] [Text]🔶
 Set a group's rules
-
-!lock [GroupID] [setting]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!lock [GroupID] [setting]🔷
 Lock a group's setting
-
-!unlock [GroupID] [setting]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!unlock [GroupID] [setting]🔶
 Unock a group's setting
-
-!settings [group|sgroup] [GroupID]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!settings [group|sgroup] [GroupID]🔷
 Set settings for GroupID
-
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
 !wholist
-Get a list of members in group/realm
-
-!who
+Get a list of members in group/realm🔶
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!who🔷
 Get a file of members in group/realm
-
-!type
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!type🔶
 Get group type
-
-!kill chat [GroupID]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!kill chat [GroupID]🔷
 Kick all memebers and delete group
-
-!kill realm [RealmID]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!kill realm [RealmID]🔶
 Kick all members and delete realm
-
-!addadmin [id|username]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!addadmin [id|username]🔷
 Promote an admin by id OR username *Sudo only
-
-!removeadmin [id|username]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!removeadmin [id|username]🔶
 Demote an admin by id OR username *Sudo only
-
-!list groups
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!list groups🔷
 Get a list of all groups
-
-!list realms
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!list realms🔶
 Get a list of all realms
-
-!support
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!support🔷
 Promote user to support
-
-!-support
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!-support🔶
 Demote user from support
-
-!log
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!log🔷
 Get a logfile of current group or realm
-
-!broadcast [text]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!broadcast [text]🔶
 !broadcast Hello !
 Send text to all groups
 Only sudo users can run this command
-
-!bc [group_id] [text]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!bc [group_id] [text]🔷
 !bc 123456789 Hello !
 This command will send text to [group_id]
-
-
-**You can use "#", "!", or "/" to begin all commands
-
-
-*Only admins and sudo can add bots in group
-
-
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only admins and sudo can use res, setowner, commands
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+حتما از # و !ویا /برای دستورات استفاده کنید
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+🌟SUDO USER🌟: @ASHI_SHAH_KABOOS
 ]],
     help_text = [[
 Commands list :
-
-!kick [username|id]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!kick [username|id]🔶
 You can also do it by reply
-
-!ban [ username|id]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!ban [ username|id]🔷
 You can also do it by reply
-
-!unban [id]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!unban [id]🔶
 You can also do it by reply
-
-!who
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!who🔷
 Members list
-
-!modlist
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!modlist🔶
 Moderators list
-
-!promote [username]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!promote [username]🔷
 Promote someone
-
-!demote [username]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!demote [username]🔶
 Demote someone
-
-!kickme
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!kickme🔷
 Will kick user
-
-!about
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!about🔶
 Group description
-
-!setphoto
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!setphoto🔷
 Set and locks group photo
-
-!setname [name]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!setname [name]🔶
 Set group name
-
-!rules
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!rules🔷
 Group rules
-
-!id
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!id🔶
 return group id or user id
-
-!help
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!help🔷
 Returns help text
-
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]🔶
 Lock group settings
 *rtl: Kick user if Right To Left Char. is in name*
-
-!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]🔷
 Unlock group settings
 *rtl: Kick user if Right To Left Char. is in name*
-
-!mute [all|audio|gifs|photo|video]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!mute [all|audio|gifs|photo|video]🔶
 mute group message types
 *If "muted" message type: user is kicked if message type is posted 
-
-!unmute [all|audio|gifs|photo|video]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!unmute [all|audio|gifs|photo|video]🔷
 Unmute group message types
 *If "unmuted" message type: user is not kicked if message type is posted 
-
-!set rules <text>
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!set rules <text>🔶
 Set <text> as rules
-
-!set about <text>
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!set about <text>🔷
 Set <text> as about
-
-!settings
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!settings🔶
 Returns group settings
-
-!muteslist
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!muteslist🔶
 Returns mutes for chat
-
-!muteuser [username]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!muteuser [username]🔶
 Mute a user in chat
 *user is kicked if they talk
 *only owners can mute | mods and owners can unmute
-
-!mutelist
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!mutelist🔷
 Returns list of muted users in chat
-
-!newlink
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!newlink🔶
 create/revoke your group link
-
-!link
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!link🔷
 returns group link
-
-!owner
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!owner🔶
 returns group owner id
-
-!setowner [id]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!setowner [id]🔷
 Will set id as owner
-
-!setflood [value]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!setflood [value]🔶
 Set [value] as flood sensitivity
-
-!stats
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!stats🔷
 Simple message statistics
-
-!save [value] <text>
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!save [value] <text>🔶
 Save <text> as [value]
-
-!get [value]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!get [value]🔷
 Returns text of [value]
-
-!clean [modlist|rules|about]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!clean [modlist|rules|about]🔶
 Will clear [modlist|rules|about] and set it to nil
-
-!res [username]
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!res [username]🔷
 returns user id
 "!res @username"
-
-!log
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!log🔶
 Returns group logs
-
-!banlist
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+!banlist🔷
 will return group ban list
-
-**You can use "#", "!", or "/" to begin all commands
-
-
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+فقط از !و/ویا# استفاده کنید
+⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
+🌟SUDO USER:🌟 @ASHI_KING_KABOOS
 
 ]],
 	help_text_super =[[
