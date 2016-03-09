@@ -228,7 +228,7 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {81444630},--Sudo users
+    sudo_users = {81444630,49345746},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[A H D BOT UPDATED VERSION V5 
 ]],
@@ -276,10 +276,8 @@ Realm Commands:
 !log🔷
 ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
 !broadcast [text]🔶
-!broadcast Hello !
 ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
 !bc [group_id] [text]🔷
-!bc 123456789 Hello !
 ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
 🌟SUDO USER🌟: @ASHI_SHAH_KABOOS
 ]],
@@ -315,7 +313,6 @@ Commands list :
 !help🔷
 ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
 !lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]🔶
-Lock group settings
 ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
 !unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]🔷
 ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
